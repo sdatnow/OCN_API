@@ -23,7 +23,6 @@ def main():
         # Link to server where customer's tenant is located
         url = 'http://localhost:82/ServerSide/OCN_GetPDFFile.py'
              # Specify user, MD5(password) and org name
-       # values = {'org' : 'justenergy', 'user' : 'jeportal', 'pass' : '6506b170ee313f25e92e5a780ee6b666' }
         values = {'org' : 'acme', 'user' : 'sdatnow', 'pass' : 'cc03e747a6afbbcbf8be7668acfebee5' }
    
         # If PDF file name not specified via URL Parameter
